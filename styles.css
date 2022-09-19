@@ -1,0 +1,87 @@
+html{
+    font-family: 'Lexend Deca', 'open sans';
+}
+body{
+    text-align: center;
+    margin: 0;
+    background-color: #102135;
+    color: white;
+}
+#title, #subtitle{
+    color: #14f444; 
+    text-shadow: 2px 3px 1px #102135;
+}
+header{
+    box-sizing: border-box;
+    background: url(yemountains.png) no-repeat  center;
+    background-size: cover;
+    padding: 105px;
+    width: 100%;
+    height: 300px;
+}
+h1{
+    font-size: 40px;
+    margin: 0;
+}
+#subtitle{
+    margin: 30px;
+}
+h2{
+    color:#14f444;
+    margin: 100px auto 50px auto;
+    text-shadow: 2px 2px 3px black;
+}
+#image{
+    transition: box-shadow 0.4s ease;
+    text-align: center;
+    margin-top: 40px;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 5px;
+}
+#image:hover{
+    box-shadow: 0 5px 10px black;
+    cursor: pointer;
+}
+#image:after {
+    transition: 0.2s;
+}
+
+figcaption{
+    font-family: 'Lexend Deca 100';
+    padding: 10px 350px;
+    min-width: 100px;
+    
+}
+
+#timeline{
+    text-align: left;
+    list-style: none;
+    margin-right: 30px;
+}
+
+hr{
+    background-color: #14f444;
+    margin-top: 25px;
+    width: 90%;
+    height: 1px;
+    border: none;
+}
+
+#tribute-link{
+    margin: 30px auto 30px auto;
+}
+
+strong, a:link, a:visited{  
+    color:#14f444;
+}
+a:link{
+    transition: 0.4s;
+}
+a:active{
+    color: orange;
+}
+a:hover{
+    font-size: 20px;
+}
+

@@ -1,87 +1,58 @@
-html{
-    font-family: 'Lexend Deca', 'open sans';
-}
-body{
-    text-align: center;
-    margin: 0;
-    background-color: #102135;
-    color: white;
-}
-#title, #subtitle{
-    color: #14f444; 
-    text-shadow: 2px 3px 1px #102135;
-}
-header{
-    box-sizing: border-box;
-    background: url(yemountains.png) no-repeat  center;
-    background-size: cover;
-    padding: 105px;
-    width: 100%;
-    height: 300px;
-}
-h1{
-    font-size: 40px;
-    margin: 0;
-}
-#subtitle{
-    margin: 30px;
-}
-h2{
-    color:#14f444;
-    margin: 100px auto 50px auto;
-    text-shadow: 2px 2px 3px black;
-}
-#image{
-    transition: box-shadow 0.4s ease;
-    text-align: center;
-    margin-top: 40px;
-    max-width: 300px;
-    max-height: 300px;
-    border-radius: 5px;
-}
-#image:hover{
-    box-shadow: 0 5px 10px black;
-    cursor: pointer;
-}
-#image:after {
-    transition: 0.2s;
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css" lang="en"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;400;700&display=swap" rel="stylesheet">
 
-figcaption{
-    font-family: 'Lexend Deca 100';
-    padding: 10px 350px;
-    min-width: 100px;
-    
-}
+    </head>
+    <body>
+        <main id="main">
+            <header>
+                <h1 id="title">Kanye West</h1>
+                <p id="subtitle">"If you're a Kanye West fan you're a fan of yourself"</p>
+            </header>
+            <figure id="img-div">
+                <img id="image" src="ye.jpg" alt="A  photo of Kanye West"/>
+                <figcaption id="img-caption"> <strong>Kanye West</strong> is an American rapper, singer, music producer, entrepreneur, politician, and fashion designer. He has been one of the most influential people in the development of mainstream hip hop, popular music, and popular culture in general in the 21st century.</figcaption>
+            </figure>
+            <section id="tribute-info">
+                <h2>here we have a timeline on the life of kanye west (1977-2018)</h2>
+                <ul id="timeline">
+                    <li class="date"><strong>June 8, 1977</strong><br> <p>Kanye Omari West is born in Douglasville, Georgia by the proud parents Donda Williams and Ray West.</p></li>
+                    <li class="date"><strong>1980</strong><br><p>At 3, Kanye moves to Chicago with his mother following his parents divorce.</p></li>
+                    <li class="date"><strong>1990</strong><br><p>Kanye's mother, Donda West, helps a then 13-year-old Kanye pay to cut his first record in a basement studio. “The microphone was hanging from the ceiling by a wire hanger. But he was so excited, I couldn't say no,” Donda West would tell RedEye in 2007. Years later, No I.D. would hear the song, called “Green Eggs and Ham,” and in an interview with Billboard, described it as a “90s-sounding, yelling-type record.”</p></li>
+                    <li class="date"><strong>1994</strong><br><p>Graduates from Polaris High School. West receives a scholarship to attend Chicago's American Academy of Art and studied painting before transferring to Chicago State University to major in English literature.</p></li>
+                    <li class="date"><strong>August 1996</strong><br><p>At 19, Ye pops up at the Fat Beats storefront in Greenwich Village and delivers aa freestyle that has since become a great time-capsule for the next generation.</p></li>
+                    <li class="date"><strong>1998</strong><br><p>Kanye's first big break arrives. He sells his first beat to local Chicago rapper Gravity for $8,000. He next sold a beat for $5,000 to Jermaine Dupri for his debut album, Life in 1472. Months after Dupri's LP release, he landed a track on Ma$e's Harlem World group album The Movement. Not before long, he drops out of Chicago State University to pursue his music dream.<br>After the placements, Columbia Records eventually dangles a record contract. However, things fell through. “I said, I'm going to be bigger than Michael Jackson, I'm going to bigger to Jermaine Dupri. I said that to (Columbia executive) Michael Mauldin,” Kanye would later reveal in an interview. Mauldin happened to be Dupri's father. By the end of the meeting, as Kanye noted, “they hit me with those three words: we'll call you. They sent limos on the way up, and when I got downstairs I couldn't even catch a cab.”</p></li>
+                    <li class="date"><strong>1998-99</strong><br><p>Teams with GLC, Timmy G, and Arrowstar to form the group known as the Go Getters. The team recorded under the Chicago music umbrella as Kon-Mon Productions, which was helmed by Don Crowley, John “Monopoly” Johnson and Happy Lewis. On the label, producers such as Boogz, Arrowstar and Brian “All Day” Miller helped on the production side, while emcees such as GLC, Mikkey, Rhymefest, Timmy G, Miss Criss, Shayla G and Really Doe took over microphone duties.</p></li>
+                    <li class="date"><strong>2000</strong><br><p>In what can be considered a tipping point of his career, West begins producing for Roc-A-Fella Records artists; that year, Jay Z's “This Can't Be Life” off The Dynasty and the title track for Beanie Sigel's The Truth. It's the very start of a decade that Rolling Stone will eventually credit for making West the icon that he became and still remains: “West was as interesting and complicated a pop star as the 2000s produced—a rapper who mastered, upped and moved beyond the hip-hop game; a producer who created a signature sound and then abandoned it to his imitators; a flashy, free-spending sybarite with insightful things to say about college, culture and economics; an egomaniac with more than enough artistic firepower to back it up.</p></li>
+                    <li class="date"><strong>2001</strong><br><p>West gains irreversible recognition thanks to the contributions he makes to Jay Z's The Blueprint —namely, of the five tracks produced, the Billboard Top 10 hit “Izzo (H.O.V.A.)” and the diss track-turned-hip-hop culture cornerstone, “Takeover.” As the project becomes a critical and commercial success for Jay—argued to be not just one of his own greatest works, but of hip-hop's overall—the demand for West's supply increases.</p></li>
+                    <li class="date"><strong>2002</strong><br><p>A defining domino effect is created when, in October, West is injured in a near-fatal car crash after falling asleep while driving home from a California recording studio. Left with a broken jaw, wired shut by reconstructive surgery, West returns to a studio two weeks later to record the ironically-titled, Chaka Khan-sampling “Through the Wire.” And despite the damage, he is far from being silenced with his production still being heard on an omnipresent Top 5 hit: Jay Z and Beyonce's “'03 Bonnie & Clyde,” Jay's then-highest-charting single ever.</p></li>
+                    <li class="date"><strong>2003</strong><br><p>First heard on West's Get Well Soon mixtape, “Through the Wire” is officially released as the lead single off his upcoming debut album, The College Dropout, originally scheduled to drop in August. It doesn't drop then—in fact, it's postponed three times—but West officially crosses the threshold into a multi-threat talent as his efforts as both a solo rap artist and behind-the-boards producer begin to chart simultaneously. Among the outputs, Jay Z's “Encore,” Alicia Keys' “You Don't Know My Name,” Ludacris' “Stand Up,” and Twista's “Slow Jamz,” the latter of which goes to No.1 across all three Hot 100, R&B, and Rap charts, becoming West's very first chart-topping song.</p></li>
+                    <li class="date"><strong class="dropout">2004</strong><br><p>The College Dropout is finally released. Selling 441,000 copies in its first week, it debuts at No.2 on the Billboard 200 albums chart. It's supported by two new singles, “All Falls Down” and “Jesus Walks”; is eventually certified three-times platinum; and is dubbed a great by both critics and fans. While riding its wave of success, West founds his own record label, GOOD Music. He also shows no signs of slowing down in creating sounds for others, as the same year sees him credited on Twista's “Overnight Celebrity,” Cam'Ron's “Down and Out,” and John Legend's debut single, “Used to Love You.” In what can be determined as a sign of things to come, or simply a telling symbol of his personality, West storms of the American Music Awards upon losing to Gretchen Wilson for the title of Best New Artist, later telling the Associated Press: “I was definitely robbed.”</p></li>
+                    <li class="date"><strong>2005</strong><br><p>The aforementioned wouldn't be West's first, last, or most controversial moment. After winning Grammy Awards for both Best Rap Album (The College Dropout) and Best Rap Song (“Jesus Walks”) earlier in the year, and just three days after releasing his sophomore effort Late Registration, West makes nationwide headlines when he declares, during a live and televised benefit concert for Hurricane Katrina, that—say it with me—“George Bush doesn't care about black people,” publicly criticizing the then-President's response to the natural disaster's aftermath. Emerging unscathed, Late Registration becomes West's first No.1 album (upon selling 860,000 copies in its first week); spawns the No.1 juggernaut “Gold Digger”; goes three-times platinum like its predecessor; and earns three Grammy Awards (including, again, Best Rap Album). He embarks on his first tour, Touch the Sky, and is named one of TIME's 100 Most Influential People. Unscathed, we say.</p></li>
+                    <li class="date"><strong>2006</strong><br><p>Kanye appears on the February 2006 issue of Rolling Stone, bearing a crown of thorns, for the controversial “The Passion of Kanye West.”</p></li>
+                    <li class="date"><strong>2007</strong><br><p>After spending much of the previous year on the road, Kanye is now preparing to release his third studio album. Landing a date of September 11, the college dropout is pitted in a battle of the sales against Southside Jamaica's own 50 Cent, whose album, Curtis, is also releasing on the day. Kanye's Graduation demolishes Curtis, taking the top slot on the Billboard 200 in it's opening week, selling 957,000 units. Publications have since cited the event as the end of gangster music, with a 2015 UPROXX article branding it as the day David slayed Goliath.<br>Graduation's success is bittersweet — in November, Donda West passes away of complications from cosmetic surgery.</p></li>
+                    <li class="date"><strong>2008</strong><br><p>Ye returns to the road for the you-wouldn't-wanna-miss Glow In The Dark Tour.<br> At the MTV Video Music Awards, Ye debuts his new record “Love Lockdown,” performing the drum-heavy song live. In November, he releases his fourth album, 808s & Heartbreak, tackling the loss of his mother and the end of his relationship with his fiancee. Critics focus heavily on the album's sparse rapping, usage of the Roland TR-808, it's synth pop sound, and large doses of love and sorrow. In an interview with the Fader, West says “I'm the only voice for the guys because rap dudes don't rap about love, and R&B. Dudes rap about love.<br>The album introduces a burgeoning Kid Cudi to the masses following his contributions to “Welcome to Heartbreak”, “Heartless”, “Paranoid” and “Robocop.”</p></li>
+                    <li class="date"><strong>2009</strong><br><p>Ye partners with Nike for his own shoe, the Air Yeezys.<br>During the VMA's Kanye West interrupts Taylor Swift's acceptance speech for Best Female Video, which she earned with “You Belong With Me.” West praises Beyonce's video for “Single Ladies (Put a Ring On It),” stating “Yo, Taylor, I'm really happy for you, I'mma let you finish, but Beyonce had one of the best videos of all time!”<br>Kanye West is America's favorite bad guy.</p></li>
+                    <li class="date"><strong>2010</strong><br><p>In July, Ye announces the title of his fifth album as My Beautiful Dark Twisted Fantasy, a huge departure from the previous title Good Ass Job. He assembles the likes of Jay Z, Kid Cudi, Rihanna, RZA, and Elton John, and a plethora of artists from an array of genres. Prior to the release, Kanye begins the “G.O.O.D. Fridays” series of weekly music, serving as promo singles that did not make the album's final cut. Twisted Fantasy spawns “Power,” “All of the Lights,” and “Runaway” as two of it's most captivating records. The finished product becomes one Kanye's most lauded projects, receiving praise for it's thorough artistry, and his brutal perspective on dealing with fame. The album is released in November, accompanied by a 35-minute short film directed by Hype Williams, and debuts at number one on the Billboard 200.<br>My Beautiful Dark Twisted Fantasy wins the Best Rap Album at the 54th Grammy Awards.</p></li>
+                    <li class="date"><strong>2011</strong><br><p>Less than a year later, Ye joins forces with “big brother” Jay Z for the collaborative feat Watch the Throne. Recorded in late 2010, the album builds on the themes touched upon in Twisted Fantasy, with celebrity, fortune, and social issues taking a prominent place within the album's duration. The album is backed by the popular singles “Otis” and “N—s In Paris.”<br>Watch the Throne is a success for the pair, earning 290,000 downloads via iTunes. The album is certified platinum by the RIAA a month after it's debut.</p></li>
+                    <li class="date"><strong>2012</strong><br><p>Kanye spends the first half of 2012 continuing the Watch The Throne trek with Jay Z, making it the highest-grossing hip-hop tour ever at the time of its conclusion in June. In September, he releases Cruel Summer, the long-awaited compilation with his G.O.O.D. Music roster. The album features “Mercy” and “Clique,” hit songs that would go on to become fan favorites of his extensive catalog. The same year, he premieres a film of the same title at the 2012 Cannes Film Festival, using a custom-built seven-screen cinema for the screening.</p></li>
+                    <li class="date"><strong>2013</strong><br><p>In June, Kanye West releases Yeezus, one of his most divisive albums to date. With no album cover, no clear radio singles, and a huge divergence from his previous sound, Kanye says the record is him revolting against the industry. The album becomes his sixth straight number one debut, but his lowest opening week sales. The Yeezus Tour, his first solo tour in five years, sees him donning a mask and having a Jesus character take the stage, with the bubbling Kendrick Lamar rocking as the opening act. June also welcomes his and Kim Kardashian's their first child, North. And in December, adidas announces their partnership with Kanye, turning a new page in his impact on fashion and pop culture.</p></li>
+                    <li class="date"><strong>2014</strong><br><p>Kanye and Kim Kardashian ger married in a private ceremony in Florence, Italy. When Kim K releases a photo from the nuptials on her Instagram page, it garners 2.4 million likes the most since Instagram was launched years earlier. He also releases a touching song with Paul McCartney, “Only One,” to commemorate the birth of his daughter and his love for his late mother Donda West.</p></li>
+                    <li class="date"><strong>2015</strong><br><p>Kanye starts off the year with the release of “FourFiveSeconds,” a single with Rihanna and Paul McCartney. In February, he premieres “Wolves” with Vic Mensa and Sia. But perhaps most importantly, that same month, he debuts his adidas line Yeezy Season 1, and the first Yeezy Boost 750 sneakers, which featur a boot-like silhouette, a zipper on the side, and many people's first glimpse at adidas Boost technology. Later that year, the low-top Yeezy Boost 350 is released. Both shoes became one of the most hyped in sneaker culture. Kanye later drops “All Day” with Theophilus London, Allan Kingdom and McCartney, and performs at the Glastonbury Festival in the UK, even with nearly 135,000 people signing a petition to protest his place in the festival. In September, he releases Yeezy Season 2 at New York Fashion Week.</p></li>
+                    <li class="date"><strong>2016</strong><br><p>From So Help Me God, to SWISH, to Waves, and finally, to The Life of Pablo, Kanye's seventh solo album went through multiple name changes, but it was still an event nonetheless. Listeners get their first peek at the album with an epic, one-of-a-kind Madison Square Garden event that features both songs from the album and looks from his Yeezy Season 3 collection with adidas. After performing on SNL, a botched release on Tidal makes Pablo one of the most bootlegged albums ever. But throughout the year, Kanye would tweak songs and resend them to streaming services, describing the album as a “living breathing changing creative expression.” He also goes on the Saint Pablo Tour, which sees him performing on a stage suspended in midair. But, after multiple shows, ends with Kanye either canceling or storming out. The tour is canceled near the end of the year, with Kanye being hospitalized for exhaustion.</p></li>
+                    <li class="date"><strong>2017</strong><br><p>The brilliance of Kanye's 2016 translates to new colorways of the Yeezy 350 V2.</p></li>
+                    <li class="date"><strong>2018</strong><br><p>After being holed up in the studio for two years, Kanye pops back into the public, firing up his Twitter account and music output. He dusted off the cobwebs with “Ye Vs. The People” (and “Lift Yourself”) and resurrected G.O.O.D. Fridays with a stream of May-June releases. He propelled Pusha-T's DAYTONA album to critical acclaim, released his own eighth studio album, ye, in signature unorthodox fashion, and dropped Kids See Ghosts with Kid Cudi. Albums by Nas and Teyana Taylor are up next.</p></li>
+                </ul>
+            </section>
+        <hr>
+            <section id="tribute-link">
+                <p>To know more about the life of Kanye West <a target="_blank" href="https://es.wikipedia.org/wiki/Kanye_West">Click here</a>.</p>
+            </section>
+        </main>
+    </body>
 
-#timeline{
-    text-align: left;
-    list-style: none;
-    margin-right: 30px;
-}
-
-hr{
-    background-color: #14f444;
-    margin-top: 25px;
-    width: 90%;
-    height: 1px;
-    border: none;
-}
-
-#tribute-link{
-    margin: 30px auto 30px auto;
-}
-
-strong, a:link, a:visited{  
-    color:#14f444;
-}
-a:link{
-    transition: 0.4s;
-}
-a:active{
-    color: orange;
-}
-a:hover{
-    font-size: 20px;
-}
-
+</html>
